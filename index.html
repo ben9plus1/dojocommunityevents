@@ -4,16 +4,62 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Dojo Community Calendar</title>
+   <style>
+      /* General body styling */
+      body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f9f9f9;
+         color: #333;
+         text-align: center;
+      }
+
+      /* Header styling */
+      h1 {
+         font-size: 2.5rem;
+         color: #4CAF50; /* Dojo-themed green */
+         margin: 20px 0;
+      }
+
+      /* Calendar container */
+      .calendar-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 20px auto;
+         padding: 20px;
+         background-color: #ffffff;
+         border-radius: 10px;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+         max-width: 850px;
+      }
+
+      /* Responsive iframe styling */
+      iframe {
+         border: none;
+         border-radius: 8px;
+         width: 100%;
+         height: 600px;
+      }
+
+      /* Footer for additional context */
+      footer {
+         margin-top: 20px;
+         font-size: 0.9rem;
+         color: #666;
+      }
+   </style>
 </head>
 <body>
    <h1>Dojo Community Calendar</h1>
-   <iframe 
-       src="https://calendar.google.com/calendar/embed?src=d3ee16e2ac3462b75728a7afa13f37ed2e79335f2b9ff52d7c16310d547cdbd0%40group.calendar.google.com&ctz=Asia%2FKuala_Lumpur" 
-       style="border: 0" 
-       width="800" 
-       height="600" 
-       frameborder="0" 
-       scrolling="no">
-   </iframe>
+   <div class="calendar-container">
+      <iframe 
+         src="https://calendar.google.com/calendar/embed?src=d3ee16e2ac3462b75728a7afa13f37ed2e79335f2b9ff52d7c16310d547cdbd0%40group.calendar.google.com&ctz=Asia%2FKuala_Lumpur">
+      </iframe>
+   </div>
+   <footer>
+      © 2025 Dojo Community. All rights reserved.
+   </footer>
 </body>
 </html>
