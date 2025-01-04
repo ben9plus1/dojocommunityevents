@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dojo Community Calendar</title>
+</head>
+<body>
+   <h1>Dojo Community Calendar</h1>
+<iframe src="https://calendar.google.com/calendar/embed?src=d3ee16e2ac3462b75728a7afa13f37ed2e79335f2b9ff52d7c16310d547cdbd0%40group.calendar.google.com&ctz=Asia%2FKuala_Lumpur" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>           style="border: 0"
+           width="800"
+           height="600"
+           frameborder="0"
+           scrolling="no"></iframe>
+</body>
+</html>
